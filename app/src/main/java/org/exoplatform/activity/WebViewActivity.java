@@ -25,6 +25,9 @@ import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
+import android.webkit.WebView;
+
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -66,6 +69,8 @@ public class WebViewActivity extends AppCompatActivity implements PlatformWebVie
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_webview);
+    Toast.makeText(getApplicationContext(), "Debug Mode is enabled! Check your desktop chrome browser!", Toast.LENGTH_LONG).show();
+    WebView.setWebContentsDebuggingEnabled(true);
     // Toolbar hidden by default, visible on certain pages cf
     // PlatformWebViewFragment->onPageStarted
     Toolbar mToolbar = (Toolbar) findViewById(R.id.WebClient_Toolbar);
