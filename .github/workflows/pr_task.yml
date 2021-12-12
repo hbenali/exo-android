@@ -10,10 +10,10 @@ on:
 
 env:
   message: ${{ github.event.pull_request.title }}
-  status: ${{ github.event.pull_request.status }}
+  state: ${{ github.event.pull_request.state }}
   pull_number: ${{ github.event.pull_request.number }}
   repo_name: ${{ github.event.repository.name }}
-  org_name: ${{ github.event.org.name }}
+  org_name: ${{ github.event.organisation.name }}
 jobs:
   check_tasks:
     name: Check for Tasks Ids
@@ -33,8 +33,8 @@ jobs:
     name: Notif tasks about PR change
     runs-on: ubuntu-latest
     needs: check_tasks
-    if: needs.check_tasks.outputs.tasks != ''
+    #if: ${{ needs.check_tasks.outputs.tasks }}
     steps:
-      - name: Check PR status
-        run: echo ${status}
+      - name: Check PR state
+        run: echo ${{ github.event.action }}
 
