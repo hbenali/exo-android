@@ -15,6 +15,7 @@ name: eXo Android Beta Appaloosa CI/CD
 on:
   push:
     branches: [develop, acceptance]
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
