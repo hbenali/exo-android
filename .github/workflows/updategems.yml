@@ -15,10 +15,10 @@ jobs:
           fetch-depth: 0
           ref: acceptance
           token: ${{ secrets.ADMIN_TOKEN }}
-      - name: Setup JDK 11
+      - name: Setup JDK 17
         uses: actions/setup-java@v4
         with:
-          java-version: 11
+          java-version: 17
           distribution: 'temurin'
       # Setup Ruby 3.0
       - name: Setup ruby 3.0
