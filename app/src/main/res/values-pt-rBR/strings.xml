@@ -32,16 +32,16 @@
     <string name="OnBoarding.Title.Collaboration">Colaboração</string>
     <string name="OnBoarding.Title.Engagement">Envolvimento</string>
     <string name="OnBoarding.Title.Networking">Redes sociais</string>
-    <string name="OnBoarding.Message.Welcome">eXo Platform is a social intranet solution whose features and design are centered around the user</string>
-    <string name="OnBoarding.Message.Collaboration">Collaboration features, such as spaces and calendars are combined together to facilitate communication and collaboration</string>
-    <string name="OnBoarding.Message.Engagement">Work together better through wikis, documents, forums, or calendars, all integrated with activity streams</string>
-    <string name="OnBoarding.Message.Networking">Discover, find and connect to people in your network with shared interests, so you can collaborate and work together</string>
+    <string name="OnBoarding.Message.Welcome">eXo Platform é uma solução de intranet social cujos recursos e design são centrados em torno do usuário</string>
+    <string name="OnBoarding.Message.Collaboration">Recursos de colaboração, como espaços e calendários, são combinados juntos para facilitar a comunicação e a colaboração</string>
+    <string name="OnBoarding.Message.Engagement">Trabalhe melhor em equipe através de wikis, documentos, fóruns ou calendários, todos integrados com fluxos de atividade</string>
+    <string name="OnBoarding.Message.Networking">Descubra, encontre e se conecte a pessoas de sua rede com interesses compartilhados, para que você possa colaborar e trabalhar juntos</string>
     <string name="OnBoarding.Title.SlideTitle">Exibe o QR code nas suas configurações de eXo.</string>
     <string name="OnBoarding.Title.LostCnnection">Sem conexão com a Internet</string>
     <string name="OnBoarding.Message.LostCnnection">Por favor, verifique se você está conectado à internet.</string>
     <string name="OnBoarding.Title.Update">Atualização eXo</string>
     <string name="OnBoarding.Message.Update">Para usar o aplicativo, faça o download da versão mais recente</string>
-    <string name="OnBoarding.Message.WrongQr">Invalid URL</string>
+    <string name="OnBoarding.Message.WrongQr">URL inválida</string>
     <string name="Word.OK">Ok</string>
     <string name="Word.Cancel">Cancelar</string>
     <string name="Word.Back">Voltar</string>
@@ -53,7 +53,7 @@
     <!-- Onboarding -->
     <string name="Onboarding.Title.Slide1">Exibe o QR code nas suas configurações de eXo</string>
     <string name="Onboarding.Title.slide2">Escaneie o QR code que aparece nas\n suas configurações eXo</string>
-    <string name="Onboarding.Title.slide3">Enter the password to log in quickly</string>
+    <string name="Onboarding.Title.slide3">Digite a senha para entrar rapidamente</string>
     <string name="Onboarding.Button.Scan">Escanear Código</string>
     <string name="Onboarding.Button.addURL">Digite a URL do servidor</string>
     <!-- Add Domain -->
@@ -76,7 +76,7 @@
     <string name="ShareActivity.SignIn.Title.Password">Senha</string>
     <string name="ShareActivity.Spaces.Title.LoadingSpaces">Recuperando espaços&#8230;</string>
     <string name="ShareActivity.Spaces.Title.NoSpace">Você não está em nenhum espaço</string>
-    <string name="ShareActivity.Error.StoragePermissionDenied">The share must stop because storage access is forbidden for this app.\nTo allow it, open the App Settings and enable the Storage permission.</string>
+    <string name="ShareActivity.Error.StoragePermissionDenied">O compartilhamento deve parar, porque o acesso ao armazenamento é proibido para este app.\\\nPara permití-lo, abra as Configurações de Aplicativo e habilite a Permissão de Armazenamento.</string>
     <string name="ShareActivity.PermissionDialog.Title.Leave">Sair</string>
     <string name="ShareActivity.PermissionDialog.Title.AppSettings">Abrir configurações do aplicativo</string>
     <string name="ShareActivity.Error.SignInFailed">Falha no login, por favor tente novamente</string>
